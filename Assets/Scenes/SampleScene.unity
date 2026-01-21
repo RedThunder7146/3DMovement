@@ -353,13 +353,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.000000033189593, y: 0.000000019575818, z: -6.4971345e-16, w: 1}
-  m_LocalPosition: {x: 1.2142899, y: 3.5085998, z: -8.42321}
+  m_LocalRotation: {x: 0.16737099, y: 0.00008602924, z: -0.000014604814, w: 0.98589396}
+  m_LocalPosition: {x: 1.2142899, y: 4.86, z: -8.42321}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 19.27, y: 0.01, z: 0}
 --- !u!114 &330585547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -682,6 +682,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8977794819981740226, guid: bedfa23a6e30ebe4587b1ee99e16ee03, type: 3}
+      propertyPath: m_Name
+      value: Head
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bedfa23a6e30ebe4587b1ee99e16ee03, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.28733
@@ -722,6 +726,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8437493093492310946, guid: bedfa23a6e30ebe4587b1ee99e16ee03, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0001
+      objectReference: {fileID: 0}
+    - target: {fileID: -8437493093492310946, guid: bedfa23a6e30ebe4587b1ee99e16ee03, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.045
+      objectReference: {fileID: 0}
+    - target: {fileID: -8437493093492310946, guid: bedfa23a6e30ebe4587b1ee99e16ee03, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.047
+      objectReference: {fileID: 0}
     - target: {fileID: -8391222552659086748, guid: bedfa23a6e30ebe4587b1ee99e16ee03, type: 3}
       propertyPath: m_Name
       value: Torso
@@ -729,6 +745,14 @@ PrefabInstance:
     - target: {fileID: -7146521406498821007, guid: bedfa23a6e30ebe4587b1ee99e16ee03, type: 3}
       propertyPath: m_Name
       value: Head
+      objectReference: {fileID: 0}
+    - target: {fileID: -6667658398012842317, guid: bedfa23a6e30ebe4587b1ee99e16ee03, type: 3}
+      propertyPath: m_Name
+      value: Pupils
+      objectReference: {fileID: 0}
+    - target: {fileID: -4610753055159195052, guid: bedfa23a6e30ebe4587b1ee99e16ee03, type: 3}
+      propertyPath: m_Name
+      value: Eyes
       objectReference: {fileID: 0}
     - target: {fileID: -3542852092398272455, guid: bedfa23a6e30ebe4587b1ee99e16ee03, type: 3}
       propertyPath: m_LocalRotation.w
@@ -797,6 +821,14 @@ PrefabInstance:
     - target: {fileID: 4306643203051859313, guid: bedfa23a6e30ebe4587b1ee99e16ee03, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5641002827277853128, guid: bedfa23a6e30ebe4587b1ee99e16ee03, type: 3}
+      propertyPath: m_Name
+      value: Nose
+      objectReference: {fileID: 0}
+    - target: {fileID: 7853389985609111430, guid: bedfa23a6e30ebe4587b1ee99e16ee03, type: 3}
+      propertyPath: m_Name
+      value: Mouth
       objectReference: {fileID: 0}
     - target: {fileID: 8416272007918961125, guid: bedfa23a6e30ebe4587b1ee99e16ee03, type: 3}
       propertyPath: m_Name
